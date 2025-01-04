@@ -1,5 +1,5 @@
 {
-  "pacientes": [
+  "pacientes":[
     {
       "id": 1,
       "nomeCompleto": "Maria Clara Silva",
@@ -9,25 +9,24 @@
       "tipoSanguineo": "O+",
       "alergias": "Pólen, Lactose",
       "carteirinhaSUS": "987654321012345",
-      "telefoneCelular": "+5511912345678",
-      "telefoneFixo": "+551134567890",
+      "telefoneCelular": "(11) 91234-5678",
+      "telefoneFixo": "(11) 3456-7890",
       "email": "maria.clara@gmail.com",
       "profissao": "Engenheira Civil",
       "religiao": "Católica",
       "convenios": {
-        "possuiConvenio": true,
-        "numeroCarteirinha": "A123456789"
-      },
-      "responsavelLegalId": null,
+      "vinculado": true,
+      "numeroCarteirinha": "A123456789"
+    },
+      "responsavelLegal": false,
       "endereco": {
-        "logradouro": "Rua das Flores",
-        "numero": 123,
-        "cep": "01000-000",
-        "bairro": "Centro",
-        "cidade": "São Paulo",
-        "uf": "SP",
-        "complemento": "Apto 45"
-      }
+       "logradouro": "Rua das Flores",
+       "numero": 123,
+       "cep": "01000-000",
+       "bairro": "Centro",
+       "uf": "SP",
+       "complemento": "Apto 45"
+     }
     },
     {
       "id": 2,
@@ -38,22 +37,21 @@
       "tipoSanguineo": "A-",
       "alergias": "Nenhuma",
       "carteirinhaSUS": "123456789012345",
-      "telefoneCelular": "+5521987654321",
-      "telefoneFixo": "+552122334455",
+      "telefoneCelular": "(21) 98765-4321",
+      "telefoneFixo": "(21) 2233-4455",
       "email": "joao.oliveira@example.com",
       "profissao": "Professor",
       "religiao": "Evangélico",
       "convenios": {
-        "possuiConvenio": false,
+        "vinculado": false,
         "numeroCarteirinha": null
       },
-      "responsavelLegalId": null,
+      "responsavelLegal": false,
       "endereco": {
         "logradouro": "Avenida das Palmeiras",
         "numero": 456,
         "cep": "22000-000",
         "bairro": "Copacabana",
-        "cidade": "Rio de Janeiro",
         "uf": "RJ",
         "complemento": "Bloco A"
       }
@@ -67,35 +65,35 @@
       "tipoSanguineo": "B+",
       "alergias": "Penicilina",
       "carteirinhaSUS": "456789123012345",
-      "telefoneCelular": "+5531998765432",
-      "telefoneFixo": "+553133221100",
+      "telefoneCelular": "(31) 99876-5432",
+      "telefoneFixo": "(31) 3322-1100",
       "email": "ana.santos@example.com",
       "profissao": "Designer",
       "religiao": "Espírita",
       "convenios": {
-        "possuiConvenio": true,
+        "vinculado": true,
         "numeroCarteirinha": "B987654321"
-      }
-      "responsavelLegalId": 1,
+      },
+      "responsavelLegal": true,
       "endereco": {
         "logradouro": "Praça da Liberdade",
         "numero": 789,
         "cep": "30140-010",
         "bairro": "Savassi",
-        "cidade": "Belo Horizonte",
         "uf": "MG",
         "complemento": "Sala 101"
       }
     }
   ],
-  "responsavelLegal": [
+    "responsavelLegal":[
+
     {
       "id": 1,
       "nome": "João Carlos da Silva",
       "cpf": "123.456.789-00",
       "relacaoPaciente": "Pai",
-      "telefoneCelular": "+5511912345678",
-      "telefoneFixo": "+551140028922",
+      "telefoneCelular": "(11) 91234-5678",
+      "telefoneFixo": "(11) 4002-8922",
       "email": "joao.silva@example.com"
     },
     {
@@ -103,8 +101,8 @@
       "nome": "Maria Fernanda Oliveira",
       "cpf": "987.654.321-00",
       "relacaoPaciente": "Tia",
-      "telefoneCelular": "+5521987654321",
-      "telefoneFixo": "+552134022211",
+      "telefoneCelular": "(21) 98765-4321",
+      "telefoneFixo": "(21) 3402-2211",
       "email": "maria.oliveira@example.com"
     }
   ]
