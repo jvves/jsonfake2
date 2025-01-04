@@ -75,7 +75,7 @@
       "convenios": {
         "possuiConvenio": true,
         "numeroCarteirinha": "B987654321"
-      },
+      }
       "responsavelLegalId": 1,
       "endereco": {
         "logradouro": "Praça da Liberdade",
