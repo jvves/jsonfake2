@@ -1,5 +1,5 @@
 {
-  "pacientes":[
+  "pacientes": [
     {
       "id": 1,
       "nomeCompleto": "Maria Clara Silva",
@@ -15,18 +15,18 @@
       "profissao": "Engenheira Civil",
       "religiao": "Católica",
       "convenios": {
-      "vinculado": true,
-      "numeroCarteirinha": "A123456789"
-    },
+        "vinculado": true,
+        "numeroCarteirinha": "A123456789"
+      },
       "responsavelLegal": false,
       "endereco": {
-       "logradouro": "Rua das Flores",
-       "numero": 123,
-       "cep": "01000-000",
-       "bairro": "Centro",
-       "uf": "SP",
-       "complemento": "Apto 45"
-     }
+        "logradouro": "Rua das Flores",
+        "numero": 123,
+        "cep": "01000-000",
+        "bairro": "Centro",
+        "uf": "SP",
+        "complemento": "Apto 45"
+      }
     },
     {
       "id": 2,
@@ -85,8 +85,7 @@
       }
     }
   ],
-    "responsavelLegal":[
-
+  "responsavelLegal": [
     {
       "id": 1,
       "nome": "João Carlos da Silva",
@@ -106,87 +105,84 @@
       "email": "maria.oliveira@example.com"
     }
   ],
-
- "agendamentos":[
-  {
-    "id": 1,
-    "paciente": {
-      "id": 101,
-      "nomeCompleto": "João Silva"
+  "agendamentos": [
+    {
+      "id": 1,
+      "paciente": {
+        "id": 101,
+        "nomeCompleto": "João Silva"
+      },
+      "medico": {
+        "id": 201,
+        "nomeCompleto": "Dra. Ana Costa"
+      },
+      "dataHora": "2025-01-15T09:30:00"
     },
-    "medico": {
-      "id": 201,
-      "nomeCompleto": "Dra. Ana Costa"
+    {
+      "id": 2,
+      "paciente": {
+        "id": 102,
+        "nomeCompleto": "Maria Oliveira"
+      },
+      "medico": {
+        "id": 202,
+        "nomeCompleto": "Dr. Pedro Santos"
+      },
+      "dataHora": "2025-01-15T14:00:00"
     },
-    "dataHora": "2025-01-15T09:30:00"
-  },
-  {
-    "id": 2,
-    "paciente": {
-      "id": 102,
-      "nomeCompleto": "Maria Oliveira"
+    {
+      "id": 3,
+      "paciente": {
+        "id": 103,
+        "nomeCompleto": "Carlos Mendes"
+      },
+      "medico": {
+        "id": 203,
+        "nomeCompleto": "Dra. Júlia Almeida"
+      },
+      "dataHora": "2025-01-16T11:15:00"
     },
-    "medico": {
-      "id": 202,
-      "nomeCompleto": "Dr. Pedro Santos"
+    {
+      "id": 4,
+      "paciente": {
+        "id": 104,
+        "nomeCompleto": "Fernanda Lima"
+      },
+      "medico": {
+        "id": 204,
+        "nomeCompleto": "Dr. Ricardo Martins"
+      },
+      "dataHora": "2025-01-17T16:45:00"
+    }
+  ],
+  "prontuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Carlos Silva",
+      "crm": "12345-SP",
+      "dataConsulta": "2025-01-10T09:00:00",
+      "motivoConsulta": "Dor de cabeça persistente"
     },
-    "dataHora": "2025-01-15T14:00:00"
-  },
-  {
-    "id": 3,
-    "paciente": {
-      "id": 103,
-      "nomeCompleto": "Carlos Mendes"
+    {
+      "id": 2,
+      "nomeCompleto": "Fernanda Oliveira",
+      "crm": "67890-RJ",
+      "dataConsulta": "2025-01-11T11:30:00",
+      "motivoConsulta": "Consulta de rotina"
     },
-    "medico": {
-      "id": 203,
-      "nomeCompleto": "Dra. Júlia Almeida"
+    {
+      "id": 3,
+      "nomeCompleto": "Joana Souza",
+      "crm": "11223-MG",
+      "dataConsulta": "2025-01-12T15:00:00",
+      "motivoConsulta": "Febre alta e dor no corpo"
     },
-    "dataHora": "2025-01-16T11:15:00"
-  },
-  {
-    "id": 4,
-    "paciente": {
-      "id": 104,
-      "nomeCompleto": "Fernanda Lima"
-    },
-    "medico": {
-      "id": 204,
-      "nomeCompleto": "Dr. Ricardo Martins"
-    },
-    "dataHora": "2025-01-17T16:45:00"
-  }
-]
-  "prontuarios":[
-  {
-    "id": 1,
-    "nomeCompleto": "Carlos Silva",
-    "crm": "12345-SP",
-    "dataConsulta": "2025-01-10T09:00:00",
-    "motivoConsulta": "Dor de cabeça persistente"
-  },
-  {
-    "id": 2,
-    "nomeCompleto": "Fernanda Oliveira",
-    "crm": "67890-RJ",
-    "dataConsulta": "2025-01-11T11:30:00",
-    "motivoConsulta": "Consulta de rotina"
-  },
-  {
-    "id": 3,
-    "nomeCompleto": "Joana Souza",
-    "crm": "11223-MG",
-    "dataConsulta": "2025-01-12T15:00:00",
-    "motivoConsulta": "Febre alta e dor no corpo"
-  },
-  {
-    "id": 4,
-    "nomeCompleto": "Roberto Lima",
-    "crm": "33445-PR",
-    "dataConsulta": "2025-01-13T10:15:00",
-    "motivoConsulta": "Problemas respiratórios"
-  }
-]
-
-
+    {
+      "id": 4,
+      "nomeCompleto": "Roberto Lima",
+      "crm": "33445-PR",
+      "dataConsulta": "2025-01-13T10:15:00",
+      "motivoConsulta": "Problemas respiratórios"
+    }
+  ]
 }
