@@ -107,7 +107,7 @@
     }
   ],
 
- "prontuarios":[
+ "agendamentos":[
   {
     "id": 1,
     "paciente": {
@@ -157,5 +157,36 @@
     "dataHora": "2025-01-17T16:45:00"
   }
 ]
+  "prontuarios":[
+  {
+    "id": 1,
+    "nomeCompleto": "Carlos Silva",
+    "crm": "12345-SP",
+    "dataConsulta": "2025-01-10T09:00:00",
+    "motivoConsulta": "Dor de cabeça persistente"
+  },
+  {
+    "id": 2,
+    "nomeCompleto": "Fernanda Oliveira",
+    "crm": "67890-RJ",
+    "dataConsulta": "2025-01-11T11:30:00",
+    "motivoConsulta": "Consulta de rotina"
+  },
+  {
+    "id": 3,
+    "nomeCompleto": "Joana Souza",
+    "crm": "11223-MG",
+    "dataConsulta": "2025-01-12T15:00:00",
+    "motivoConsulta": "Febre alta e dor no corpo"
+  },
+  {
+    "id": 4,
+    "nomeCompleto": "Roberto Lima",
+    "crm": "33445-PR",
+    "dataConsulta": "2025-01-13T10:15:00",
+    "motivoConsulta": "Problemas respiratórios"
+  }
+]
+
 
 }
