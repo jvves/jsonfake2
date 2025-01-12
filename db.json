@@ -105,5 +105,57 @@
       "telefoneFixo": "(21) 3402-2211",
       "email": "maria.oliveira@example.com"
     }
-  ]
+  ],
+
+ "prontuarios":[
+  {
+    "id": 1,
+    "paciente": {
+      "id": 101,
+      "nomeCompleto": "João Silva"
+    },
+    "medico": {
+      "id": 201,
+      "nomeCompleto": "Dra. Ana Costa"
+    },
+    "dataHora": "2025-01-15T09:30:00"
+  },
+  {
+    "id": 2,
+    "paciente": {
+      "id": 102,
+      "nomeCompleto": "Maria Oliveira"
+    },
+    "medico": {
+      "id": 202,
+      "nomeCompleto": "Dr. Pedro Santos"
+    },
+    "dataHora": "2025-01-15T14:00:00"
+  },
+  {
+    "id": 3,
+    "paciente": {
+      "id": 103,
+      "nomeCompleto": "Carlos Mendes"
+    },
+    "medico": {
+      "id": 203,
+      "nomeCompleto": "Dra. Júlia Almeida"
+    },
+    "dataHora": "2025-01-16T11:15:00"
+  },
+  {
+    "id": 4,
+    "paciente": {
+      "id": 104,
+      "nomeCompleto": "Fernanda Lima"
+    },
+    "medico": {
+      "id": 204,
+      "nomeCompleto": "Dr. Ricardo Martins"
+    },
+    "dataHora": "2025-01-17T16:45:00"
+  }
+]
+
 }
