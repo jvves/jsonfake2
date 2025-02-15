@@ -185,4 +185,26 @@
       "motivoConsulta": "Problemas respiratórios"
     }
   ]
+  "setores": [
+  {
+    "id": 1,
+    "nomeSetor": "Clínico Geral",
+    "descricao": "Setor responsável pelo atendimento médico inicial e acompanhamento geral dos pacientes."
+  },
+  {
+    "id": 2,
+    "nomeSetor": "Recursos Humanos",
+    "descricao": "Área responsável pela gestão de funcionários, incluindo recrutamento, treinamentos e administração de benefícios."
+  },
+  {
+    "id": 3,
+    "nomeSetor": "Administrativo",
+    "descricao": "Setor encarregado da gestão financeira, logística e operacional do hospital ou clínica."
+  },
+  {
+    "id": 4,
+    "nomeSetor": "Serviços Gerais",
+    "descricao": "Área responsável pela limpeza, manutenção e suporte às operações gerais da instituição."
+  }
+]
 }
