@@ -160,38 +160,63 @@
       "hora": "16:45:00"
     }
   ],
+ {
   "prontuarios": [
     {
       "id": 1,
       "nomeCompleto": "Carlos Silva",
       "crm": "12345-SP",
+      "nomePaciente": "Ana Pereira",
       "data": "2025-01-10",
       "hora": "09:00:00",
-      "motivoConsulta": "Dor de cabeça persistente"
+      "motivoConsulta": "Dor de cabeça persistente",
+      "sintomas": "Dor na região frontal da cabeça, sensibilidade à luz",
+      "diagnostico": "Enxaqueca crônica",
+      "medicamentos": ["Paracetamol 500mg", "Sumatriptano"],
+      "examesLaudos": "Tomografia computadorizada normal",
+      "observacoes": "Orientado a evitar estresse e consumir menos cafeína"
     },
     {
       "id": 2,
       "nomeCompleto": "Fernanda Oliveira",
       "crm": "67890-RJ",
+      "nomePaciente": "Pedro Santos",
       "data": "2025-01-11",
       "hora": "11:30:00",
-      "motivoConsulta": "Consulta de rotina"
+      "motivoConsulta": "Consulta de rotina",
+      "sintomas": "Sem queixas",
+      "diagnostico": "Saúde geral boa",
+      "medicamentos": ["Vitamina D 2000UI"],
+      "examesLaudos": "Exames laboratoriais dentro dos padrões normais",
+      "observacoes": "Recomendada prática regular de exercícios"
     },
     {
       "id": 3,
       "nomeCompleto": "Joana Souza",
       "crm": "11223-MG",
+      "nomePaciente": "Carla Mendes",
       "data": "2025-01-12",
       "hora": "15:00:00",
-      "motivoConsulta": "Febre alta e dor no corpo"
+      "motivoConsulta": "Febre alta e dor no corpo",
+      "sintomas": "Febre de 39°C, dor muscular, cansaço",
+      "diagnostico": "Suspeita de dengue",
+      "medicamentos": ["Dipirona 1g"],
+      "examesLaudos": "Hemograma com plaquetas baixas",
+      "observacoes": "Encaminhada para acompanhamento e hidratação intensiva"
     },
     {
       "id": 4,
       "nomeCompleto": "Roberto Lima",
       "crm": "33445-PR",
+      "nomePaciente": "Lucas Nogueira",
       "data": "2025-01-13",
       "hora": "10:15:00",
-      "motivoConsulta": "Problemas respiratórios"
+      "motivoConsulta": "Problemas respiratórios",
+      "sintomas": "Falta de ar, tosse seca, chiado no peito",
+      "diagnostico": "Asma",
+      "medicamentos": ["Salbutamol", "Budesonida"],
+      "examesLaudos": "Radiografia de tórax sem alterações",
+      "observacoes": "Orientado sobre uso correto da bombinha"
     }
   ],
 
