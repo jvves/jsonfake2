@@ -105,7 +105,6 @@
       "email": "maria.oliveira@example.com"
     }
   ],
-
   "agendamentos": [
     {
       "id": 1,
@@ -188,37 +187,8 @@
       "medicamentos": ["Vitamina D 2000UI"],
       "examesLaudos": "Exames laboratoriais dentro dos padrões normais",
       "observacoes": "Recomendada prática regular de exercícios"
-    },
-    {
-      "id": 3,
-      "nomeCompleto": "Joana Souza",
-      "crm": "11223-MG",
-      "nomePaciente": "Carla Mendes",
-      "data": "2025-01-12",
-      "hora": "15:00:00",
-      "motivoConsulta": "Febre alta e dor no corpo",
-      "sintomas": "Febre de 39°C, dor muscular, cansaço",
-      "diagnostico": "Suspeita de dengue",
-      "medicamentos": ["Dipirona 1g"],
-      "examesLaudos": "Hemograma com plaquetas baixas",
-      "observacoes": "Encaminhada para acompanhamento e hidratação intensiva"
-    },
-    {
-      "id": 4,
-      "nomeCompleto": "Roberto Lima",
-      "crm": "33445-PR",
-      "nomePaciente": "Lucas Nogueira",
-      "data": "2025-01-13",
-      "hora": "10:15:00",
-      "motivoConsulta": "Problemas respiratórios",
-      "sintomas": "Falta de ar, tosse seca, chiado no peito",
-      "diagnostico": "Asma",
-      "medicamentos": ["Salbutamol", "Budesonida"],
-      "examesLaudos": "Radiografia de tórax sem alterações",
-      "observacoes": "Orientado sobre uso correto da bombinha"
     }
   ],
-
   "setores": [
     {
       "id": 1,
