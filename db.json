@@ -85,28 +85,28 @@
       }
     }
   ],
- "responsavelLegal": [
-  {
-    "id": 1,
-    "nome": "João Carlos da Silva",
-    "cpf": "123.456.789-00",
-    "relacaoPaciente": "Pai",
-    "telefoneCelular": "(11) 91234-5678",
-    "telefoneFixo": "(11) 4002-8922",
-    "email": "joao.silva@example.com",
-    "nomePaciente": "Ana Beatriz da Silva"
-  },
-  {
-    "id": 2,
-    "nome": "Maria Fernanda Oliveira",
-    "cpf": "987.654.321-00",
-    "relacaoPaciente": "Tia",
-    "telefoneCelular": "(21) 98765-4321",
-    "telefoneFixo": "(21) 3402-2211",
-    "email": "maria.oliveira@example.com",
-    "nomePaciente": "Pedro Henrique Oliveira"
-  }
-].
+  "responsavelLegal": [
+    {
+      "id": 1,
+      "nome": "João Carlos da Silva",
+      "cpf": "123.456.789-00",
+      "relacaoPaciente": "Pai",
+      "telefoneCelular": "(11) 91234-5678",
+      "telefoneFixo": "(11) 4002-8922",
+      "email": "joao.silva@example.com",
+      "nomePaciente": "Ana Beatriz da Silva"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Fernanda Oliveira",
+      "cpf": "987.654.321-00",
+      "relacaoPaciente": "Tia",
+      "telefoneCelular": "(21) 98765-4321",
+      "telefoneFixo": "(21) 3402-2211",
+      "email": "maria.oliveira@example.com",
+      "nomePaciente": "Pedro Henrique Oliveira"
+    }
+  ],
   "agendamentos": [
     {
       "id": 1,
